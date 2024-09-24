@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.input{
+  padding-top: 50px;
+  padding: 10px 15px;
+  border: 2px solid darkgoldenrod;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.box{
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  gap: 30px;
+}
+.row{
+  width: 300px;
+  border: 2px solid salmon;
+  justify-content: center;
+  padding: 20px;
+}
+img{
+  width: 200px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2{
+  font-size: 20px;
+  text-align: center;
+}
