@@ -14,6 +14,7 @@ const render = async (value) => {
     </div>
    `).join("")
 }
+
 const useDebounce = () => {
   let id;
   return () => {
@@ -32,3 +33,4 @@ debounce()
 
 })
 
+document.addEventListener('DOMContentLoaded', () => render(''));
